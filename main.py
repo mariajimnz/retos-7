@@ -1,3 +1,14 @@
+''' -El valle de aburra afronta altas temperaturas año tras año, Cree una que permita calcular la temperatura media de la tierra partir de recibir 20 datos diarios de temperatura.'''
+
+def temperatura():
+    sum=0
+    for i in range(20):
+        p=int(input("Ingrese la temperatura: "))
+        sum=sum+p
+    prom=sum/20
+    return(int(prom))
+
+print("La temperatura promedio del Valle de Aburrá es: "+str(temperatura()))
 
 '''-Crea una función  que reciba una lista con valores numéricos y devuelva el valor máximo y el mínimo ingresados'''
 
